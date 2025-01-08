@@ -16,7 +16,6 @@
     opacity: .7;
 }
 
-
 .main {
     width: 100%;
     height: auto;
@@ -123,7 +122,7 @@
     filter: invert(100%);
     z-index: 300;
     cursor: pointer;
-    opacity: 0;
+    opacity: 1;
     transition: ease .4s;
     display: none;
 }
@@ -516,6 +515,10 @@
         background: var(--color_vibrant_blue);
     }
 
+    .banner_slider_arrow {
+        opacity: 0;
+    }
+
     .first_section_btn:hover {
         background: var(--color_pastel_blue);
         color: var(--color_black);
@@ -536,7 +539,6 @@
     .banner_slider_item {
         align-items: center;
     }
-
 
     .banner_slider_title, .banner_slider_description, .banner_slider_btn {
         margin-left: 0;
