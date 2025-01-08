@@ -1,0 +1,39 @@
+:root {
+    --color_blue: #2D89EF;
+    --color_bluish_blue: #335C81;
+    --color_light_blue: #66B2FF;
+    --color_vibrant_blue: #0078D7;
+    --color_pastel_blue: #B3D9FF;
+    --color_white: #FFFFFF;
+    --color_black: #000000;
+    --font: "Hanken Grotesk", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color_white);
+}
+
+h1,h2,h3 {
+    font-family: var(--font);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p,a,li {
+    font-family: var(--font);
+    font-weight: 300;
+    font-size: 1.1rem;
+}
