@@ -553,6 +553,15 @@
         gap: 20px;
     }
 
+    .second_section_article_title, .second_section_article_text {
+        text-align: center;
+    }
+
+    .second_section_article_btn {
+        width: 100%;
+        text-align: center;
+    }
+
     .second_section_item {
         width: 100%;
     }
