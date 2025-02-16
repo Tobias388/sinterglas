@@ -37,7 +37,7 @@
     top: 0;
     left: 0;
     z-index: 100;
-    opacity: .8;
+    opacity: .6;
 }
 
 .banner_slider {
@@ -67,6 +67,10 @@
     color: var(--color_white);
     opacity: 0;
     transition: ease 1s;
+}
+
+.banner_slider_description {
+    width: 60%;
 }
 
 .banner_slider_title.active {
@@ -233,8 +237,6 @@
 .first_section_info_item_icon {
     width: 114px;
     height: 114px;
-    background: var(--color_light_blue);
-    border-radius: 100px;
     padding: 10px;
     object-fit: cover;
 }
@@ -542,7 +544,6 @@
 
     .banner_slider_title, .banner_slider_description, .banner_slider_btn {
         margin-left: 0;
-        width: auto;
         text-align: center;
     }
 
