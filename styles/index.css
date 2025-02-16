@@ -538,6 +538,11 @@
 }
 
 @media screen and (max-width: 978px) {
+
+    .section_banner {
+        height: 80vh;
+    }
+
     .banner_slider_item {
         align-items: center;
     }
@@ -547,17 +552,18 @@
         text-align: center;
     }
 
+    .first_section_btn {
+        width: 100%;
+        text-align: center;
+    }
+
     .second_section {
         height: auto;
         flex-direction: column-reverse;
         gap: 20px;
     }
 
-    .second_section_article_title, .second_section_article_text {
-        text-align: center;
-    }
-
-    .second_section_article_btn {
+    .second_section_article_title, .second_section_article_text, .second_section_article_btn {
         width: 100%;
         text-align: center;
     }
@@ -573,5 +579,10 @@
     .second_section_article_img {
         width: 100%;
         height: 100%;
+    }
+
+    .third_section_btn {
+        width: 100%;
+        text-align: center;
     }
 }
