@@ -547,6 +547,14 @@
         align-items: center;
     }
 
+    .banner_slider_arrow_left {
+        left: 10px;
+    }
+
+    .banner_slider_arrow_right {
+        right: 10px;
+    }
+
     .banner_slider_title, .banner_slider_description, .banner_slider_btn {
         margin-left: 0;
         text-align: center;
